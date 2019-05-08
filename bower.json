@@ -18,6 +18,8 @@
     "bootstrap": "^4.3.1",
     "font-awesome": "^5.7.2",
     "bootstrap-sass": "^3.4.1",
-    "breakpoint-sass": "^2.7.1"
+    "breakpoint-sass": "^2.7.1",
+    "components-font-awesome": "^5.4.2",
+    "sass-flex-mixin": "^1.0.3"
   }
 }
