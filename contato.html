@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="contato.css">
+    <title>CAEC - POLI</title>
+    
+
+    
+</head>
+
+<body >
+    <nav id="navbar">
+        <ul id="lista">
+            <li class="item">
+                <a class="link" href="index.html">  <img src="imagens/Logo_caec.png" id="logo_caec"> </a>
+            </li>
+            <li class="item">
+                <a class="link" href="index.html">Inicio</a>
+            </li>
+            <li class="item">
+                <a class="link" href="sobre.html">Sobre</a>
+            </li>
+            <li class="item">
+                <a class="link" href="sec.html">SEC</a>
+            </li>
+            <li class="item">
+                <a class="link" href="ciclo_de_palestras.html">Ciclo de Palestras</a>
+            </li>
+            <li class="item">
+                <a class="link" href="contato.html">Contato</a>
+            </li>
+        </ul>
+    </nav>
+
+	<div class="apresentacao">
+		
+		<div class="imagem_logo">
+
+		</div>
+		<p id="caec">Centro Acadêmico de Engenharia da Computação</p>
+
+		<div id="informacoes">
+			<h1 id="tex1">Entre em contato</h1> 
+			<form id="esquerda" method="POST" action="contato.php">
+				<div><label class="tag"for="nome">Nome:</label>
+				<input type="text" class="entrada" name="nome" size="30" maxlength="50"> </div>
+
+				<div><label class="tag" for="email">E-mail:</label>
+				<input type="email" class="entrada" name="email"size="30" maxlength="50"></div>
+				
+				<div><label class="tag" for="assunto">Assunto:</label>
+				<input type="text" class="entrada" name="assunto"size="30" maxlength="50"></div>
+				
+				<div><label class="tag" for="mensagem">Mensagem:</label>
+				<textarea class="entrada" id="texto" name="mensagem" size="200" maxlength="1000"></textarea></div>
+				
+				<button id="btn" type="submit">Enviar</button>
+
+			</form>
+			
+			<div id="direita">
+				<h2 class="cont">Endereço</h2>
+				<p class="menor">R. Benfica, 455 - Madalena, Recife - PE</p>
+
+				<h2 class="cont">Telefone</h2> 
+				<p class="menor">(81) 9 5734-3452</p>
+
+				<h2 class="cont">E-mail</h2>
+				<p class="menor">caec@poli.ecomp.br</p>
+
+				<h2 class="cont">Socical</h2>
+				
+                <a href="https://www.facebook.com/caecupe" class="slc" target="_blank"> 
+                        <img class="logo" src="imagens/logo_facebook.png">  <p class="menor">Facabook</p> </a>
+				
+                <a href="https://www.instagram.com/caecpoli" class="slc" target="_blank"> 
+                        <img class="logo" src="imagens/logo_instagram.png"> <p class="menor">Instagram</p> </a>
+
+			</div>	
+			
+		</div>
+	</div>
+	<footer style="height: 25px"></footer>
+</body>
+
+</html>
